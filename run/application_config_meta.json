@@ -1,0 +1,256 @@
+{
+  "keys": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "useSession": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "cookieName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "sessionName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "headerName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "bodyName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "queryName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "value": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.local.js",
+      "maxAge": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "value": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "value": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "policy": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js",
+      "checkAddress": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-security@2.4.2@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-schedule@3.6.0@egg-schedule/config/config.default.js",
+      "file": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-schedule@3.6.0@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-schedule@3.6.0@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "files": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "fastReady": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-logrotator@3.0.5@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-logrotator@3.0.5@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-logrotator@3.0.5@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-logrotator@3.0.5@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-logrotator@3.0.5@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-logrotator@3.0.5@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-logrotator@3.0.5@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dir": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "preload": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "buffer": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "maxFiles": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-view@2.1.1@egg-view/config/config.default.js",
+    "cache": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-view@2.1.1@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-view@2.1.1@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-view@2.1.1@egg-view/config/config.default.js",
+    "mapping": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg-view@2.1.1@egg-view/config/config.default.js"
+  },
+  "env": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "name": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "proxy": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "protocolHeaders": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "ipHeaders": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "hostHeaders": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "version": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "description": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "main": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "dev": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    },
+    "author": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "license": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "HOME": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "rundir": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "notFound": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "sitefile": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "middlewares": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "httpClient": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "encoding": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "formLimit": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "jsonLimit": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "strict": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "depth": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "parameterLimit": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "encoding": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "env": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "level": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "consoleLevel": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "outputJSON": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "buffer": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "appLogName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "coreLogName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "agentLogName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "errorLogName": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "maxSockets": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "maxSockets": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "logging": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "serverTimeout": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "port": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+      "hostname": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js",
+    "responseTimeout": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/dovlie/Desktop/tinypng-demo/tynypng-webp-demo/node_modules/_egg@2.14.2@egg/config/config.default.js"
+}
