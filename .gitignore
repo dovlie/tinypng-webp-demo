@@ -1,6 +1,6 @@
 node_modules
 run
-logs/
+logs/tynypng-webp-demo
 npm-debug.log
 yarn-error.log
 yarn.lock
