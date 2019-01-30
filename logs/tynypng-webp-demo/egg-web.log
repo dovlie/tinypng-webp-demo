@@ -27,3 +27,17 @@
 2019-01-30 00:44:41,171 INFO 6047 [egg:core] dump config after load, 4ms
 2019-01-30 00:44:41,191 INFO 6047 [egg-watcher:application] watcher start success
 2019-01-30 00:44:41,195 INFO 6047 [egg:core] dump config after ready, 2ms
+2019-01-30 11:14:59,890 INFO 10937 [egg:logger] init all loggers with options: {"dir":"/Users/yanyarong/Desktop/work/tinypngDemo/tinypng-webp-demo/logs/tynypng-webp-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tynypng-webp-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-01-30 11:14:59,920 INFO 10937 [egg-multipart] stream mode enable
+2019-01-30 11:15:00,007 INFO 10937 [egg-static] starting static serve /public/ -> /Users/yanyarong/Desktop/work/tinypngDemo/tinypng-webp-demo/app/public
+2019-01-30 11:15:00,010 INFO 10937 [egg-security] use csrf middleware
+2019-01-30 11:15:00,011 INFO 10937 [egg-security] use methodnoallow middleware
+2019-01-30 11:15:00,012 INFO 10937 [egg-security] use noopen middleware
+2019-01-30 11:15:00,013 INFO 10937 [egg-security] use nosniff middleware
+2019-01-30 11:15:00,014 INFO 10937 [egg-security] use xssProtection middleware
+2019-01-30 11:15:00,015 INFO 10937 [egg-security] use xframe middleware
+2019-01-30 11:15:00,016 INFO 10937 [egg-security] use dta middleware
+2019-01-30 11:15:00,016 INFO 10937 [egg-security] compose 7 middlewares into one security middleware
+2019-01-30 11:15:00,026 INFO 10937 [egg:core] dump config after load, 4ms
+2019-01-30 11:15:00,039 INFO 10937 [egg-watcher:application] watcher start success
+2019-01-30 11:15:00,044 INFO 10937 [egg:core] dump config after ready, 3ms

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+<style>
+  .body{
+    position: relative;
+  }
+  .tinyWrap{
+    width:800px;
+    height: 600px;
+    border:1px solid burlywood;
+    position: absolute;
+    top:160px;
+    left: 20px;
+  }
+  button{
+  width: 160px;
+  height:40px;
+  background: #ffffff;
+  border:1px solid burlywood;
+  position: absolute;
+  top:80px;
+  left: 260px;
+  }
+  .upload-file{
+    width: 160px;
+    height:40px;
+    background: #ffffff;
+    border:1px solid burlywood;
+    position: absolute;
+    top:80px;
+    left: 20px;
+    /* opacity: 0; */
+  }
+  .pre-img{
+    width:160px;
+    position: absolute;
+    top:200px;
+    left: 40px;
+  }
+  .pre{
+    position: absolute;
+    top:20px;
+    left: 40px;
+  }
+  .next{
+    position: absolute;
+    top:80px;
+    left: 40px;
+  }
+  .next-img{
+    border:2px solid burlywood;
+  }
+  .next-span{
+    display: block;
+  }
+</style>
+<body>
+  <h5>tinypng图片压缩</h5>
+  <form method="POST" action="http://127.0.0.1:7001/reduce" enctype="multipart/form-data">
+    <input class="upload-file" name="file" type="file" />
+    <img class="pre-img" src="" alt="">
+    <button class="takeUp" type="submit">进行tiny图片压缩</button>
+  </form>
+<div class="tinyWrap">
+    <div class="pre">
+      <!-- 压缩前: <%= (result.input.size/1024).toFixed(2) %>KB -->
+    </div>
+    <div class="next">
+      <!-- <img class="next-img" src="<%= result.output.url %>" alt=""> -->
+      <!-- <span class="next-span">压缩后: <%= (result.output.size/1024).toFixed(2) %>KB</span> -->
+    </div>
+</div>
+</body>
+<script>
+  $(function () {
+    function imgPreview(fileDom,e,ele){
+        //获取文件
+        var file = fileDom.files[0];
+        var supportedTypes = ['image/jpg', 'image/jpeg', 'image/png'];
+        if(!(supportedTypes.indexOf(file.type)>-1)){
+            alert('请选择.jpg、.png格式图片')
+            return;
+        }
+        var uploadFiles = e.target.files || e.dataTransfer.files;
+        console.log(file.type);
+        var size=uploadFiles.length;
+        for(var i=0;i<size;i++){
+            /*读取文件*/
+            var reader=new FileReader();
+            reader.readAsDataURL(uploadFiles[i]);
+            reader.onload=function (e) {
+                var imgBase=e.target.result;
+                $('.pre-img').attr('src',imgBase).show()
+            }
+        }
+
+    }
+    $('.takeUp').click((e) =>{
+      // imgPreview(this,e,$(this));
+    })
+    $('.upload-file').change(function (e) {
+        imgPreview(this,e,$(this));
+    })
+});
+</script>
+</html>
