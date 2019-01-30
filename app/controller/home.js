@@ -10,7 +10,7 @@ class HomeController extends Controller {
 
   async reduce() {
     const { ctx } = this;
-    const file = ctx.request.files[0];
+    const file = ctx.request.body.files[0];
     const type = file.mime.split('/')[1];
     let result;
     debugger;
